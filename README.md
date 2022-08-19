@@ -16,14 +16,16 @@ you will get the graphql screen
 ## Query - access  the data using  query
 
 ```  
+//get books list with authorname
       query {
          books {
-                  title,
+                  title,                     
                   author,
                   authorName,
                 }
   ```
  ```  
+ //get author list with books
  query{
         authors {
           title,
@@ -34,6 +36,7 @@ you will get the graphql screen
  ```
  
 ```  
+//get books by id
 query{
         books(id:1){
         title,
@@ -46,6 +49,7 @@ query{
  
         
    ``` 
+   //get author by id
    query{
         authors(id:1){
         title,
@@ -65,5 +69,6 @@ mutation {
     author,
     authorName
     }
-    ```
+    
+```
 
