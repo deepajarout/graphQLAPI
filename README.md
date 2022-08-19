@@ -5,7 +5,7 @@
 
 ### How Run the project
 
-1- download the project.
+1- Download the project.
 
 2- ``` npm install ```.
 
@@ -23,29 +23,37 @@ you will get the graphql screen
                   authorName,
                 }
   ```
-```  query{
+ ```  
+ query{
         authors {
           title,
           books
                }
           }
-          ```
-```  query{
+          
+ ```
+ 
+```  
+query{
         books(id:1){
         title,
         authorName{
         title
         }
         }
-        ```
         
-        ``` query{
+ ```
+ 
+        
+   ``` 
+   query{
         authors(id:1){
         title,
         books{
         title
         }
         }
+        
 ```
 
 ## Mutation - add new data 
