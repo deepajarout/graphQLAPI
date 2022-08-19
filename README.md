@@ -16,7 +16,7 @@ you will get the graphql screen
 ## Query - access  the data using  query
 
 ```  
-     query {
+     #### query {
             books {
                   title,
                   author,
