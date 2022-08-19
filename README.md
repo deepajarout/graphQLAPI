@@ -13,12 +13,25 @@
 
 you will get the graphql screen 
 
-## - Query
+## Query - access  the data using  query
 
-``` query {
+```  
+     query {
             books {
                   title,
                   author,
                   authorName
-                  } ```
+                  } 
+  ```
+
+## Mutation - add new data 
+
+```
+mutation {
+ addBook(title:Harry Potter series 3, author:1){
+    title,
+    author,
+    authorName
+    }
+    ```
 
