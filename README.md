@@ -1,21 +1,24 @@
 
-#Basic GraphQL API Approach
+# Basic GraphQL API Approach
 
-##Instruction
+## Instruction
 
-###How Run the project
+### How Run the project
 
-1- download the project
-2- ``` npm install ```
-3-check in Browser type http://localhost:5000
+1- download the project.
+
+2- ``` npm install ```.
+
+3-check in Browser type http://localhost:5000.
+
 you will get the graphql screen 
 
-##- Query
+## - Query
 
 ``` query {
             books {
                   title,
                   author,
                   authorName
-                  }```
+                  } ```
 
